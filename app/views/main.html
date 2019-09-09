@@ -1,0 +1,79 @@
+<section><br>
+  <h1 class="textUno text-center">Prenda</h1>
+  <h5 class="textDos text-center">ELIGE EL TIPO DE PRENDA A PERSONALIZAR</h5>
+  <div class="row mt45">
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
+      <button class="btn-zoom">
+        <img src="images/Camisa_General.svg" class="img-responsive imgPrenda " alt="">
+      </button>
+      <br>
+      <p class="mt45">CAMISA</p>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center" data-toggle="modal" data-target="#modalSelect">
+      <button class="btn-zoom">
+        <img src="images/Saco_Modelo_Recto_Boton_No2.svg" class="img-responsive imgPrenda " alt="">
+      </button>
+      <br>
+      <p class="mt45">TRAJE</p>
+
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center" data-toggle="modal" data-target="#modalSelect">
+      <button class="btn-zoom">
+        <img src="images/Saco_Modelo_Recto_Boton_No2.svg" class="img-responsive imgPrenda" alt="">
+      </button>
+      <p class="mt45">SACO-PANTALÓN</p>
+    </div>
+  </div>
+  <div class="row mt45">
+    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center" data-toggle="modal" data-target="#modalSelect">
+      <button class="btn-zoom">
+        <img src="images/Saco_Modelo_Recto_Boton_No2.svg" class="img-responsive imgPrenda" alt="">
+      </button> <br>
+      <p class="mt45">CHALECO-PANTALÓN</p>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
+      <button class="btn-zoom">
+        <img src="images/Guayabera_Tipo_3.svg" class="img-responsive imgPrenda" alt="">
+      </button><br>
+      <p class="mt45">GUAYABERA</p>
+    </div>
+    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+
+    </div>
+  </div>
+</section>
+<!-- Modal -->
+<div class="modal fade" id="modalSelect" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-size" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+            aria-hidden="true">&times;</span></button>
+        <h3 class="text-center">Selecciona el tipo de traje <br> que deseas</h3>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="CheckBox">
+            <input id="saco" type="checkbox">
+            <label for="saco">SACO</label>
+            <span></span>
+          </div>
+          <div class="CheckBox">
+            <input id="chaleco" type="checkbox">
+            <label for="chaleco">CHALECO</label>
+            <span></span>
+          </div>
+          <div class="CheckBox">
+            <input id="pantalon" type="checkbox">
+            <label for="pantalon">PANTALÓN</label>
+            <span></span>
+          </div><br>
+          <button type="submit" class="btn btnOne center-block">AGREGAR</button>
+
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
