@@ -135,6 +135,41 @@ angular
         controller: 'SpCtrl',
         controllerAs: 'sP'
       })
+      .when('/sB', {
+        templateUrl: 'views/sb.html',
+        controller: 'SbCtrl',
+        controllerAs: 'sB'
+      })
+      .when('/sA', {
+        templateUrl: 'views/sa.html',
+        controller: 'SaCtrl',
+        controllerAs: 'sA'
+      })
+      .when('/sBp', {
+        templateUrl: 'views/sbp.html',
+        controller: 'SbpCtrl',
+        controllerAs: 'sBp'
+      })
+      .when('/sC', {
+        templateUrl: 'views/sc.html',
+        controller: 'ScCtrl',
+        controllerAs: 'sC'
+      })
+      .when('/sF', {
+        templateUrl: 'views/sf.html',
+        controller: 'SfCtrl',
+        controllerAs: 'sF'
+      })
+      .when('/sT', {
+        templateUrl: 'views/st.html',
+        controller: 'StCtrl',
+        controllerAs: 'sT'
+      })
+      .when('/sI', {
+        templateUrl: 'views/si.html',
+        controller: 'SiCtrl',
+        controllerAs: 'sI'
+      })
       .otherwise({
         redirectTo: '/'
       });
