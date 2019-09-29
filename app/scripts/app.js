@@ -70,6 +70,66 @@ angular
         controller: 'VpCtrl',
         controllerAs: 'vP'
       })
+      .when('/gT', {
+        templateUrl: 'views/gt.html',
+        controller: 'GtCtrl',
+        controllerAs: 'gT'
+      })
+      .when('/gB', {
+        templateUrl: 'views/gb.html',
+        controller: 'GbCtrl',
+        controllerAs: 'gB'
+      })
+      .when('/gC', {
+        templateUrl: 'views/gc.html',
+        controller: 'GcCtrl',
+        controllerAs: 'gC'
+      })
+      .when('/gA', {
+        templateUrl: 'views/ga.html',
+        controller: 'GaCtrl',
+        controllerAs: 'gA'
+      })
+      .when('/gP', {
+        templateUrl: 'views/gp.html',
+        controller: 'GpCtrl',
+        controllerAs: 'gP'
+      })
+      .when('/gE', {
+        templateUrl: 'views/ge.html',
+        controller: 'GeCtrl',
+        controllerAs: 'gE'
+      })
+      .when('/gB', {
+        templateUrl: 'views/gb.html',
+        controller: 'GbCtrl',
+        controllerAs: 'gB'
+      })
+      .when('/gI', {
+        templateUrl: 'views/gi.html',
+        controller: 'GiCtrl',
+        controllerAs: 'gI'
+      })
+      .when('/gBo', {
+        templateUrl: 'views/gbo.html',
+        controller: 'GboCtrl',
+        controllerAs: 'gBo'
+      })
+      .when('/gBo', {
+        templateUrl: 'views/gbo.html',
+        controller: 'GboCtrl',
+        controllerAs: 'gBo'
+      })
+      .when('/sM', {
+        templateUrl: 'views/sm.html',
+        controller: 'SmCtrl',
+        controllerAs: 'sM'
+      })
+      .when('/sS', {
+        templateUrl: 'views/ss.html',
+        controller: 'SsCtrl',
+        controllerAs: 'sS'
+      })
       .otherwise({
         redirectTo: '/'
       });

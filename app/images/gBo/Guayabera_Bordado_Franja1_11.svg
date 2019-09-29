@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="-199 0 300 300" style="enable-background:new -199 0 300 300;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#DDDDDD;}
+	.st1{clip-path:url(#SVGID_3_);}
+	.st2{clip-path:url(#SVGID_4_);}
+	.st3{fill:#404041;}
+	.st4{clip-path:url(#SVGID_6_);}
+	.st5{clip-path:url(#SVGID_10_);}
+	.st6{fill:#9AA0BB;}
+</style>
+<g>
+	<g>
+		<circle id="SVGID_1_" class="st0" cx="-48.9" cy="150" r="150"/>
+	</g>
+	<g>
+		<defs>
+			<circle id="SVGID_2_" cx="-48.9" cy="150" r="150"/>
+		</defs>
+		<clipPath id="SVGID_3_">
+			<use xlink:href="#SVGID_2_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st1">
+			<g>
+				<defs>
+					<rect id="SVGID_34_" x="-83.1" y="-455.4" width="70" height="1210.8"/>
+				</defs>
+				<clipPath id="SVGID_4_">
+					<use xlink:href="#SVGID_34_"  style="overflow:visible;"/>
+				</clipPath>
+				<g class="st2">
+					<g>
+						<rect x="-83.4" y="-686.7" class="st3" width="8.5" height="1603.2"/>
+					</g>
+				</g>
+				<g class="st2">
+					<g>
+						<g>
+							<rect x="-54.1" y="-673.7" class="st3" width="4.3" height="1593.4"/>
+						</g>
+					</g>
+					<g>
+						<g>
+							<rect x="-42" y="-672.1" class="st3" width="4.3" height="1598.1"/>
+						</g>
+					</g>
+					<g>
+						<g>
+							<rect x="-29.8" y="-667.3" class="st3" width="4.3" height="1593.4"/>
+						</g>
+					</g>
+					<g>
+						<g>
+							<rect x="-17.7" y="-667.3" class="st3" width="4.3" height="1593.4"/>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<defs>
+			<circle id="SVGID_5_" cx="-48.9" cy="150" r="150"/>
+		</defs>
+		<clipPath id="SVGID_6_">
+			<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st4">
+			<g>
+				<defs>
+					<circle id="SVGID_7_" cx="-48.9" cy="150" r="150"/>
+				</defs>
+				<clipPath id="SVGID_8_">
+					<use xlink:href="#SVGID_7_"  style="overflow:visible;"/>
+				</clipPath>
+			</g>
+			<g>
+				<defs>
+					<circle id="SVGID_9_" cx="-48.9" cy="150" r="150"/>
+				</defs>
+				<clipPath id="SVGID_10_">
+					<use xlink:href="#SVGID_9_"  style="overflow:visible;"/>
+				</clipPath>
+				<g class="st5">
+					<path class="st6" d="M-48.9,5c38.7,0,75.1,15.1,102.5,42.5S96.1,111.3,96.1,150S81,225.1,53.6,252.5S-10.2,295-48.9,295
+						s-75.1-15.1-102.5-42.5s-42.5-63.8-42.5-102.5s15.1-75.1,42.5-102.5S-87.6,5-48.9,5 M-48.9,0c-82.8,0-150,67.2-150,150
+						s67.2,150,150,150s150-67.2,150-150S33.9,0-48.9,0L-48.9,0z"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
