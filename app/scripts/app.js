@@ -130,6 +130,11 @@ angular
         controller: 'SsCtrl',
         controllerAs: 'sS'
       })
+      .when('/sP', {
+        templateUrl: 'views/sp.html',
+        controller: 'SpCtrl',
+        controllerAs: 'sP'
+      })
       .otherwise({
         redirectTo: '/'
       });
