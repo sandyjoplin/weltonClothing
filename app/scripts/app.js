@@ -170,6 +170,11 @@ angular
         controller: 'SiCtrl',
         controllerAs: 'sI'
       })
+      .when('/carrito', {
+        templateUrl: 'views/carrito.html',
+        controller: 'CarritoCtrl',
+        controllerAs: 'carrito'
+      })
       .otherwise({
         redirectTo: '/'
       });

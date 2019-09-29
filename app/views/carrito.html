@@ -1,0 +1,117 @@
+<section>
+  <br>
+  <h1 class="textUno ">Carrito</h1>
+  <table class="table">
+    <thead>
+      <tr>
+        <th></th>
+        <th></th>
+        <th>Producto</th>
+        <th>Precio</th>
+        <th>Cantidad</th>
+        <th>Total</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th><i class="fas fa-times" style="color:red"></i></th>
+        <th> <img src="images/Camisa_General.svg" style="width:50%" alt=""></th>
+        <td>Nombre del producto</td>
+        <td>precio</td>
+        <td>
+          <input type="number" style="width:80px" class="" id="" placeholder="">
+        </td>
+        <td>total</td>
+      </tr>
+      <tr>
+        <th><i class="fas fa-times" style="color:red"></i></th>
+        <th> <img src="images/Camisa_General.svg" style="width:50%" alt=""></th>
+        <td>Nombre del producto</td>
+        <td>precio</td>
+        <td>
+          <input type="number" style="width:80px" class="" id="" placeholder="">
+        </td>
+        <td>total</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="row">
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+      <form action="">
+        <div class="form-group">
+          <label for=""></label>
+          <input type="text" class="form-control" id="" placeholder="Código de cupón">
+        </div>
+        <button class="btn btnC">APLICAR CUPÓN</button> <br>
+        <button class="btn btnC">ACTUALIZAR CARRITO</button>
+      </form>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+      <h2>Total del carrito</h2>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+          <p class="textDos">Subtotal</p>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+          <p class="">$1236</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+          <p class="textDos">Envio</p>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+          <div class="radio">
+            <label>
+              <input type="radio" name="option1" id="option1" value="option1">
+              MEXICO $943
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="option2" id="option2" value="option2">
+              RESTO DEL MUNDO $943
+            </label>
+          </div>
+          <button class="btn btnCa" type="button" data-toggle="collapse" data-target="#calcularEnvio"
+            aria-expanded="false" aria-controls="calcularEnvio">
+            Calcular envío
+          </button>
+          <div class="collapse" id="calcularEnvio">
+            <div class="well">
+              <form action="">
+                <select class="browser-default custom-select1">
+                  <option selected>México</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select> <br>
+                <select class="browser-default custom-select1">
+                  <option selected>Región/Provincia</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+                <div class="form-group">
+                  <label for=""></label>
+                  <input type="text" class="form-control" id="" placeholder="Código postal">
+                </div>
+                <button class="btn btnAc">Actualizar totales</button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+          <p class="textDos">total</p>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+          <p class="">$1236</p>
+        </div>
+      </div>
+      <button class="btn btn-success">Finalizar compra</button>
+    </div>
+  </div>
+</section>
