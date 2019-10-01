@@ -175,6 +175,42 @@ angular
         controller: 'CarritoCtrl',
         controllerAs: 'carrito'
       })
+      .when('/chM', {
+        templateUrl: 'views/chm.html',
+        controller: 'ChmCtrl',
+        controllerAs: 'chM'
+      })
+      
+      .when('/chT', {
+        templateUrl: 'views/cht.html',
+        controller: 'ChtCtrl',
+        controllerAs: 'chT'
+      })
+      .when('/pP', {
+        templateUrl: 'views/pp.html',
+        controller: 'PpCtrl',
+        controllerAs: 'pP'
+      })
+      .when('/pB', {
+        templateUrl: 'views/pb.html',
+        controller: 'PbCtrl',
+        controllerAs: 'pB'
+      })
+      .when('/pTi', {
+        templateUrl: 'views/pti.html',
+        controller: 'PtiCtrl',
+        controllerAs: 'pTi'
+      })
+      .when('/pTe', {
+        templateUrl: 'views/pte.html',
+        controller: 'PteCtrl',
+        controllerAs: 'pTe'
+      })
+      .when('/pTer', {
+        templateUrl: 'views/pter.html',
+        controller: 'PterCtrl',
+        controllerAs: 'pTer'
+      })
       .otherwise({
         redirectTo: '/'
       });
